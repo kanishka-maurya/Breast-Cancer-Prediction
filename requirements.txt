@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn
+matplotlib
+sklearn
+-e .'''To ensure that whenever i am installing 
+all these packages my setup.py should also run , 
+i use it.'''
