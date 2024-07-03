@@ -1,0 +1,6 @@
+2024-07-02 02:05:54,227 - root - ERROR - exception_details
+Traceback (most recent call last):
+  File "c:\Users\kanis\Desktop\Breast-Cancer-Prediction\app.py", line 4, in <module>
+    var = 1/0
+          ~^~
+ZeroDivisionError: division by zero
