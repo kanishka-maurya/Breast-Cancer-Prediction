@@ -1,0 +1,3 @@
+2024-07-03 16:20:49,708 - root - INFO - Reading SQL database started....
+2024-07-03 16:20:49,780 - root - INFO - reading from MySQL database
+2024-07-03 16:20:49,817 - root - INFO - Data Ingestion in completed

@@ -1,0 +1,5 @@
+2024-07-04 02:09:44,614 - root - INFO - reading from MySQL database
+2024-07-04 02:09:44,648 - root - INFO - Data Ingestion in completed
+2024-07-04 02:09:44,706 - root - INFO - Reading the train and test file
+2024-07-04 02:09:44,706 - root - INFO - Numerical features: ['id', 'diagnosis', 'radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean', 'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst', 'perimeter_worst', 'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave points_worst', 'symmetry_worst', 'fractal_dimension_worst']
+2024-07-04 02:09:44,712 - root - INFO - Applying preprocessing on training and test dataset

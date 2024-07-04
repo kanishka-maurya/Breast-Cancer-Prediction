@@ -11,9 +11,9 @@ from sklearn.model_selection import train_test_split
 
 @dataclass
 class DataIngestionConfig():
-    train_data_path:str = os.path.join("artifact","train.csv")
-    test_data_path:str = os.path.join("artifact","test.csv")
-    raw_data_path:str = os.path.join("artifact","raw.csv")
+    train_data_path:str = os.path.join("artifacts","train.csv")
+    test_data_path:str = os.path.join("artifacts","test.csv")
+    raw_data_path:str = os.path.join("artifacts","raw.csv")
 
 class DataIngestion():
     def __init__(self):
@@ -22,7 +22,7 @@ class DataIngestion():
     def initiate_DataIngestion(self):
         try:
             
-            df = read_sql_data()
+            df = pd.read_csv(os.path.join("notebook","raw.csv"))
             logging.info("reading from MySQL database")
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
             train_set,test_set = train_test_split(df,test_size=0.2,random_state = 42)
